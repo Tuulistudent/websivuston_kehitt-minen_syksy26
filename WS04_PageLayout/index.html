@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head> 
+
+<body>
+    <div class="content">
+    <header>
+        
+        <h1 style="font-family: Comic Sans MS">WELCOME TO MY PAGE</h1>
+        <style>
+            h1 {
+                background-color: rgba(234, 185, 193, 0.824);
+                border-radius: 50px;
+                width: 100%;
+                padding: 35px;
+                margin: -100px 0px 150px -20px;
+                text-align: center;
+                font-size: 40px;
+            }
+        </style>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This page helps you to get to know me a little.</p>
+        <img src="./IMG_20261027_130428.jpg" alt="Me and my dog" width="400"> 
+        <h3>My Hobbies</h3>
+        <ul class="pseudo-list">
+            <li>Baking</li>
+            <li>Academic Art of Riding</li>
+            <li>(Horseback) Archery</li>
+        </ul>
+        <a href="https://yhteishyva.fi/reseptit/raikas-raparperijuustokakku/3ZghuYpvi6RT2a2CDt3ezH/" class="transition-button">My favourite recipe</a>
+    </section>
+    
+    <section id="courses">
+        <h2>Courses</h2>    
+        <table>
+        <tr>
+            <th>Ongoing courses</th>
+            <th>Progress</th>
+        </tr>
+        <tr>
+            <td>Websivuston kehittäminen</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>Ethical Hacking</td>
+            <td>0%</td>
+        </tr>
+        <tr>
+            <td>Professional Communication in English</td>
+            <td>100% (RPL)</td>
+        </tr>
+        </table>
+    </section>
+        
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="animation-box"></div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <img src="./fantasy-mountain-scenery-with-clouds-and-sun-picjumbo-com.jpg" alt="Mountain scenery" class="filter-image">
+    <blockquote class="quote">Mountains teach that greatness takes time.</blockquote>
+
+        <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        </div>
+        <div class="flex-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        </div>
+        
+        <div class="responsive-box">Resize the window to see the effect</div>
+    
+    </main>
+    </div>
+    
+    <footer>
+        <p>Copyright 2026</p>
+    </footer>
+    
+</body>
+</html>
